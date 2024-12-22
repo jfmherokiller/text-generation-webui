@@ -23,8 +23,8 @@ set TEMP=%cd%\installer_files
 
 @rem config
 set INSTALL_DIR=%cd%\installer_files
-set CONDA_ROOT_PREFIX=%cd%\installer_files\conda
-set INSTALL_ENV_DIR=%cd%\installer_files\env
+set CONDA_ROOT_PREFIX=%cd%\installer_files\conda_windows
+set INSTALL_ENV_DIR=%cd%\installer_files\env_windows
 set MINICONDA_DOWNLOAD_URL=https://repo.anaconda.com/miniconda/Miniconda3-py311_24.11.1-0-Windows-x86_64.exe
 set MINICONDA_CHECKSUM=43dcbcc315ff91edf959e002cd2f1ede38c64b999fefcc951bccf2ed69c9e8bb
 set conda_exists=F
